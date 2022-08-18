@@ -231,3 +231,48 @@ main {
         margin: 10vh auto;
     }
 }
+.alterar-cor {
+    margin: 2px;
+    width: 200%;
+    cursor: pointer;
+}
+
+.botoes {
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+}
+
+.botao-cor-azul {
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.botao-cor-amarelo {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.botao-cor-branco {
+    background-color: white;
+    font-weight: bold;
+}
+
+.botao-cor-preto {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.botao-cor-rosa {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.botao-cor-vermelho {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

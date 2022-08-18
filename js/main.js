@@ -82,3 +82,7 @@ function manipulaDados(operacao, controle) {
     peca.value = parseInt(peca.value) + 1;
   }
 }
+
+function alterarCor(cor) {
+  document.querySelector('#robotron').src = `img/robotron-${cor}.png`;
+}
